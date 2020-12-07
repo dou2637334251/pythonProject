@@ -1,0 +1,27 @@
+datas:
+  add:
+    - [ 1,2,3 ]
+    - [ -1,-2,-3 ]
+    - [ 0.1,0.2,0.3 ]
+    - [ 0,0.1,0.1 ]
+    - [ 1,-1.1,-0.1 ]
+  add_ids:
+    - "Positive additive"
+    - "Negative additive"
+    - "Decimal addition"
+    - "Add up integers and decimals"
+    - "Positive and negative additive"
+
+  div:
+    - [ 1,0,0 ]
+    - [ 0,1,0 ]
+    - [ 0.1,1,0.1 ]
+    - [ 1.2,0.3,4 ]
+    - [ 10,3,3.33 ]
+
+  div_ids:
+    - "Dividend of 0"
+    - "The Divisor is 0"
+    - "The divisor is 1"
+    - "The decimal division"
+    - "In addition to not"
