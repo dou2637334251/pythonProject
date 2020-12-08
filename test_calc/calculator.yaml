@@ -1,0 +1,55 @@
+datas:
+  add_data:
+    - [ 1,2,3 ]
+    - [ -1,-2,-3 ]
+    - [ 0.1,0.2,0.3 ]
+    - [ 0,0.1,0.1 ]
+    - [ 1,-1.1,-0.1 ]
+  add_ids:
+    - "Positive additive"
+    - "Negative additive"
+    - "Decimal addition"
+    - "Add up integers and decimals"
+    - "Positive and negative additive"
+
+  div_data:
+    - [ 1,0,0 ]
+    - [ 0,1,0 ]
+    - [ 0.1,1,0.1 ]
+    - [ 1.2,0.3,4 ]
+    - [ 10,3,3.33 ]
+
+  div_ids:
+    - "Dividend of 0"
+    - "The Divisor is 0"
+    - "The divisor is 1"
+    - "The decimal division"
+    - "In addition to not"
+
+  sub_data:
+    - [ 1 , 1 , 0 ]
+    - [ 0.1 , 1, -0.9 ]
+    - [ -1 , 1, -2 ]
+    - [ -1 , 0.1 , -1.1 ]
+    - [ 0.1 , 0.1 , 0 ]
+
+  sub_ids:
+    - "Integer subtraction"
+    - "Subtract a decimal from an integer"
+    - "Negative and positive are subtracted"
+    - "Negative numbers are subtracted from decimal numbers"
+    - "Negative subtraction"
+
+  take_data:
+    - [ 0,1,0 ]
+    - [ 1,-1,-1 ]
+    - [ -1,0,0 ]
+    - [ 0.1,0.1,0.01 ]
+    - [ -0.1,0.1,-0.01 ]
+
+  take_ids:
+    - "Zero times a positive number"
+    - "Negative times positive"
+    - "Zero times a negative number"
+    - "The decimal multiplication"
+    - "Multiply positive and negative decimals"
